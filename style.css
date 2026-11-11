@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: aliceblue;
+    font-family: "Birthstone", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(0.5rem, 10vw, 5rem);
+    overflow-wrap: break-word;
+}
+
+p{
+
+    
+    font-family: "Smokum", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: clamp(0.2rem, 3vw, 1.1rem);
+    overflow-wrap: break-word;
+}
+
+
+.piano-container{
+    min-width: 100vw;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 30px;
+    background: linear-gradient(
+        to bottom,
+        black,
+        white
+    );
+    
+}
+
+.piano-container .key-wrapper{
+    display: flex;
+    position: relative;
+}
+
+.piano-container .key-wrapper .w-key{
+    width: clamp(2px, 5vw, 70px);
+    height: 400px;  
+    background-color: aliceblue;
+    border-radius: 5px; 
+}
+
+.piano-container .key-wrapper .b-key{
+    right: 10px;
+    width: clamp(2px,5vw,35px);
+    height: 200px;
+    background-color: black;
+    border-radius: 5px;
+    
+}
+
+.piano-container .key-wrapper #b1{
+    position: absolute;
+    left: 5.2%;
+   
+}
+.piano-container .key-wrapper #b2{
+    position: absolute;
+    left: 12.5%;
+    
+}
+.piano-container .key-wrapper #b3{
+    position: absolute;
+    left: 26.6%;
+  
+}
+.piano-container .key-wrapper #b4{
+    position: absolute;
+    left: 33.8%;
+
+}
+.piano-container .key-wrapper #b5{
+    position: absolute;
+    left: 41%;
+  
+}
+.piano-container .key-wrapper #b6{
+    position: absolute;
+    right: 5.5%;
+    
+}
+.piano-container .key-wrapper #b7{
+    position: absolute;
+    right: 12.5%;
+    
+}
+.piano-container .key-wrapper #b8{
+    position: absolute;
+    right: 26.8%;
+
+}
+.piano-container .key-wrapper #b9{
+    position: absolute;
+    right: 34%;
+    
+}
+.piano-container .key-wrapper #b10{
+    position: absolute;
+    right: 41%;
+    
+}
+
