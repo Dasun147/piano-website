@@ -16,11 +16,11 @@ h1{
 p{
 
     
-    font-family: "Smokum", serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: clamp(0.2rem, 3vw, 1.1rem);
-    overflow-wrap: break-word;
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.2rem, 3vw, 1.1rem);
+   overflow-wrap: break-word;
 }
 
 
@@ -34,6 +34,7 @@ p{
     align-items: center;
     text-align: center;
     row-gap: 30px;
+ 
     background: linear-gradient(
         to bottom,
         black,
@@ -45,6 +46,7 @@ p{
 .piano-container .key-wrapper{
     display: flex;
     position: relative;
+    box-shadow:  0 0 15px black;
 }
 
 .piano-container .key-wrapper .w-key{
@@ -52,6 +54,7 @@ p{
     height: 400px;  
     background-color: aliceblue;
     border-radius: 5px; 
+    box-shadow:  0 0 15px black;
 }
 
 .piano-container .key-wrapper .b-key{
@@ -60,6 +63,7 @@ p{
     height: 200px;
     background-color: black;
     border-radius: 5px;
+    box-shadow:  0 0 15px black;
     
 }
 
