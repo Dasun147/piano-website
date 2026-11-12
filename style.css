@@ -67,52 +67,52 @@ p{
     
 }
 
-.piano-container .key-wrapper #b1{
+.piano-container .key-wrapper #Cs4{
     position: absolute;
     left: 5.2%;
    
 }
-.piano-container .key-wrapper #b2{
+.piano-container .key-wrapper #Ds4{
     position: absolute;
     left: 12.5%;
     
 }
-.piano-container .key-wrapper #b3{
+.piano-container .key-wrapper #Fs4{
     position: absolute;
     left: 26.6%;
   
 }
-.piano-container .key-wrapper #b4{
+.piano-container .key-wrapper #Gs4{
     position: absolute;
     left: 33.8%;
 
 }
-.piano-container .key-wrapper #b5{
+.piano-container .key-wrapper #As4{
     position: absolute;
     left: 41%;
   
 }
-.piano-container .key-wrapper #b6{
+.piano-container .key-wrapper #Cs5{
     position: absolute;
     right: 5.5%;
     
 }
-.piano-container .key-wrapper #b7{
+.piano-container .key-wrapper #Ds5{
     position: absolute;
     right: 12.5%;
     
 }
-.piano-container .key-wrapper #b8{
+.piano-container .key-wrapper #Fs5{
     position: absolute;
     right: 26.8%;
 
 }
-.piano-container .key-wrapper #b9{
+.piano-container .key-wrapper #Gs5{
     position: absolute;
     right: 34%;
     
 }
-.piano-container .key-wrapper #b10{
+.piano-container .key-wrapper #As5{
     position: absolute;
     right: 41%;
     
