@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+:root{
+  --titleBorderBottomColor : black;
+}
 h1{
     color: aliceblue;
     font-family: "Birthstone", cursive;
@@ -14,13 +16,11 @@ h1{
     border: 2px solid;
     border-radius: 10px;
     padding: 5px 20px;
-    border-image: linear-gradient(to bottom,white, #0bdb49)1; 
+    border-image: linear-gradient(to bottom,white, var(--titleBorderBottomColor))1; 
      
 }
 
-p{
-    margin-top: 200px;
-}
+
 
 
 
@@ -41,11 +41,11 @@ footer{
     align-items: center;
     text-align: center;
     row-gap: 30px;
- 
+    position: relative; 
     background: linear-gradient(
         to bottom,
         black,
-       white
+        white
     );
     
 }
@@ -84,6 +84,58 @@ footer{
     
 }
 
+.piano-container .options{
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    text-align: center;
+    padding: 5px 10px;
+    display: flex;
+    column-gap: 10px;
+  
+    background: linear-gradient(gray);
+    border-radius: 5px;
+    
+}
+
+.piano-container .options .naming{
+    background-color: black;
+    
+
+}
+
+
+
+.piano-container .options #cpBtn1:hover{
+       background-color: #28fc03;
+}
+.piano-container .options #cpBtn2:hover{
+       background-color: #03bafc;
+}
+.piano-container .options #cpBtn3:hover{
+       background-color: #fc039d;
+}
+
+
+#nameW{
+    margin-top: 200px;
+    overflow-wrap: break-word;
+}
+
+#nameB{
+    margin-top: 100px;
+    overflow-wrap: break-word;
+}
+
+.colorProfile, .naming{
+    width: clamp(1px,5vw,20px);
+    height: clamp(1px,5vw,20px);
+    border-radius: 50%; 
+    cursor: pointer;   
+   
+}
+
+
 
 #ftr{
   font-family: "Aldrich", sans-serif;
@@ -93,6 +145,7 @@ footer{
   overflow-wrap: break-word;
 
 }
+
 
 
 .piano-container .key-wrapper #Cs4{
@@ -147,6 +200,13 @@ footer{
 }
 
 
+
+
+
+
+
+/*toggle*/
+
 .pressed{
    background: linear-gradient(
     to bottom,
@@ -156,3 +216,66 @@ footer{
    );
 }
 
+.hidden {
+    display: none;
+}
+
+.changeBtnColor1{
+    background-color: white !important;
+}
+
+.changeBtnColor2{
+    background-color: #28fc03 !important;
+}
+
+.changeBtnColor3{
+    background-color: #03bafc !important;
+}
+.changeBtnColor4{
+    background-color: #fc039d !important;
+}
+
+
+.bgColor1{
+
+  background: linear-gradient(
+        to bottom,
+        black,
+        #28fc03
+    ) !important;
+    
+     
+}
+.bgColor2{
+
+  background: linear-gradient(
+        to bottom,
+        black,
+        #03bafc
+    ) !important;
+    
+     
+}
+
+.bgColor3{
+
+  background: linear-gradient(
+        to bottom,
+        black,
+        #fc039d
+    ) !important;
+    
+     
+}
+
+.borderBottomColor1{
+     border-image: linear-gradient(to bottom,white, #28fc03)1; 
+}
+
+.borderBottomColor2{
+     border-image: linear-gradient(to bottom,white, #03bafc)1; 
+}
+
+.borderBottomColor3{
+     border-image: linear-gradient(to bottom,white, #fc039d)1; 
+}

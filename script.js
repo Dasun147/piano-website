@@ -14,7 +14,6 @@ document.querySelectorAll(".key")[i].addEventListener("click", function(){
 
 }
 
-
 document.addEventListener("keypress", function(event){
     var keypress = event.key;
     keypressPlaySound(keypress);
@@ -22,9 +21,6 @@ document.addEventListener("keypress", function(event){
 
 
 })
-
-
-
 
 function keypressPlaySound(key){
 
@@ -153,3 +149,33 @@ function keyAnimation(key){
         pressKeyAnimation.classList.remove("pressed");
     }, 100);
 }
+
+document.querySelector(".naming").addEventListener("click", function(){
+    
+    this.classList.toggle("changeBtnColor1");
+    
+    document.querySelectorAll(".name").forEach(function(element){
+        element.classList.toggle("hidden");
+
+    })
+ 
+
+})
+
+
+document.querySelector("#cpBtn1").addEventListener("click", function(){
+   this.classList.toggle("changeBtnColor2");
+   document.querySelector(".piano-container").classList.toggle("bgColor1");
+   document.querySelector("h1").classList.toggle("borderBottomColor1");
+})
+
+document.querySelector("#cpBtn2").addEventListener("click", function(){
+   this.classList.toggle("changeBtnColor3");
+   document.querySelector(".piano-container").classList.toggle("bgColor2");
+   document.querySelector("h1").classList.toggle("borderBottomColor2");
+})
+document.querySelector("#cpBtn3").addEventListener("click", function(){
+   this.classList.toggle("changeBtnColor4");
+   document.querySelector(".piano-container").classList.toggle("bgColor3");
+   document.querySelector("h1").classList.toggle("borderBottomColor3");
+})
