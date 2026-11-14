@@ -138,7 +138,7 @@ footer{
 
 
 #ftr{
-  font-family: "Aldrich", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: clamp(0.2rem, 3vw, 1.1rem);
@@ -269,13 +269,13 @@ footer{
 }
 
 .borderBottomColor1{
-     border-image: linear-gradient(to bottom,white, #28fc03)1; 
+     border-image: linear-gradient(to bottom,white, #28fc03)1 !important; 
 }
 
 .borderBottomColor2{
-     border-image: linear-gradient(to bottom,white, #03bafc)1; 
+     border-image: linear-gradient(to bottom,white, #03bafc)1 !important; 
 }
 
 .borderBottomColor3{
-     border-image: linear-gradient(to bottom,white, #fc039d)1; 
+     border-image: linear-gradient(to bottom,white, #fc039d)1 !important; 
 }
