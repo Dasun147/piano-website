@@ -20,10 +20,6 @@ h1{
      
 }
 
-
-
-
-
 footer{
     position: absolute;
     bottom: 0;
@@ -85,7 +81,7 @@ footer{
 }
 
 .piano-container .key-wrapper .name{
-    font-size: clamp(0.2rem,2vw,0.9rem);
+    font-size: clamp(0.2rem,4vw,1rem);
 }
 
 .piano-container .options{
@@ -139,8 +135,6 @@ footer{
    
 }
 
-
-
 #ftr{
   font-family: "Smythe", system-ui;
   font-weight: 400;
@@ -150,17 +144,15 @@ footer{
 
 }
 
-
-
 .piano-container .key-wrapper #Cs4{
     position: absolute;
     left: 5.5%;
-   
+
 }
 .piano-container .key-wrapper #Ds4{
     position: absolute;
     left: 12.7%;
-    
+ 
 }
 .piano-container .key-wrapper #Fs4{
     position: absolute;
@@ -202,10 +194,6 @@ footer{
     right: 5.9%;
     
 }
-
-
-
-
 
 
 
@@ -268,7 +256,6 @@ footer{
         black,
         #fc039d
     ) !important;
-    
      
 }
 
