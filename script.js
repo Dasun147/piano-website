@@ -159,6 +159,25 @@ function keyAnimation(key) {
   }, 100);
 }
 
+function setSmoothSoundEnding(audio) {
+  var fadeInterval = setInterval(function () {
+    if (audio.volume > 0.05) {
+      audio.volume -= 0.05;
+    } else {
+      clearInterval(fadeInterval);
+
+      audio.pause();
+      audio.currentTime = 0;
+      audio.volume = 1;
+    }
+  }, 20);
+}
+
+
+
+
+
+
 document.querySelector(".naming").addEventListener("click", function () {
   this.classList.toggle("changeBtnColor1");
 
@@ -209,16 +228,3 @@ document.querySelector("#cpBtn3").addEventListener("click", function () {
   document.querySelector("h1").classList.remove("borderBottomColor2");
 });
 
-function setSmoothSoundEnding(audio) {
-  var fadeInterval = setInterval(function () {
-    if (audio.volume > 0.05) {
-      audio.volume -= 0.05;
-    } else {
-      clearInterval(fadeInterval);
-
-      audio.pause();
-      audio.currentTime = 0;
-      audio.volume = 1;
-    }
-  }, 20);
-}

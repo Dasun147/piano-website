@@ -84,6 +84,10 @@ footer{
     
 }
 
+.piano-container .key-wrapper .name{
+    font-size: clamp(0.2rem,2vw,0.9rem);
+}
+
 .piano-container .options{
     position: absolute;
     right: 1%;
@@ -138,10 +142,10 @@ footer{
 
 
 #ftr{
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Smythe", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: clamp(0.2rem, 3vw, 1.1rem);
+  font-size: clamp(0.2rem, 5vw, 1.4rem);
   overflow-wrap: break-word;
 
 }
