@@ -15,7 +15,8 @@ for (var i = 0; i < document.querySelectorAll(".key").length; i++) {
 
 
 // pressing keys on the keyboard
-document.addEventListener("keypress", function (event) {
+document.addEventListener("keydown", function (event) {
+  if (event.repeat) return; 
   var keypress = event.key;
   keypressPlaySound(keypress);
   keyAnimation(keypress);
@@ -128,7 +129,7 @@ function keypressPlaySound(key) {
     case "3":
       var audio3 = new Audio("./white_keys/INSPiano_Vel04_Ds5_01.ogg");
       audio3.play();
-      setSmoothSoundEnding(audi3);
+      setSmoothSoundEnding(audio3);
       break;
     case "5":
       var audio5 = new Audio("./white_keys/INSPiano_Vel04_Fs5_01.ogg");
