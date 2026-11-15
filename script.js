@@ -1,3 +1,5 @@
+
+// clicking keys
 for (var i = 0; i < document.querySelectorAll(".key").length; i++) {
   document.querySelectorAll(".key")[i].addEventListener("click", function () {
     var getId = this.id;
@@ -10,6 +12,9 @@ for (var i = 0; i < document.querySelectorAll(".key").length; i++) {
   });
 }
 
+
+
+// pressing keys on the keyboard
 document.addEventListener("keypress", function (event) {
   var keypress = event.key;
   keypressPlaySound(keypress);
@@ -143,6 +148,8 @@ function keypressPlaySound(key) {
   }
 }
 
+
+
 function keyAnimation(key) {
   var pressKeyAnimation;
 
@@ -173,6 +180,10 @@ function setSmoothSoundEnding(audio) {
   }, 20);
 }
 
+
+
+
+// define buttons funtcionality
 document.querySelector(".naming").addEventListener("click", function () {
   this.classList.toggle("changeBtnColor1");
 
@@ -180,6 +191,7 @@ document.querySelector(".naming").addEventListener("click", function () {
     element.classList.toggle("hidden");
   });
 });
+
 
 document.querySelector("#cpBtn1").addEventListener("click", function () {
   this.classList.toggle("changeBtnColor2");
