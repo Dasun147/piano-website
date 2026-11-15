@@ -19,126 +19,126 @@ document.addEventListener("keypress", function (event) {
 function keypressPlaySound(key) {
   switch (key) {
     case "z":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_C4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioZ = new Audio("./white_keys/INSPiano_Vel04_C4_01.ogg");
+      audioZ.play();
+      setSmoothSoundEnding(audioZ);
       break;
     case "x":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_D4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioX = new Audio("./white_keys/INSPiano_Vel04_D4_01.ogg");
+      audioX.play();
+      setSmoothSoundEnding(audioX);
       break;
     case "c":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_E4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioC = new Audio("./white_keys/INSPiano_Vel04_E4_01.ogg");
+      audioC.play();
+      setSmoothSoundEnding(audioC);
       break;
     case "v":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_F4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioV = new Audio("./white_keys/INSPiano_Vel04_F4_01.ogg");
+      audioV.play();
+      setSmoothSoundEnding(audioV);
       break;
     case "b":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_G4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioB = new Audio("./white_keys/INSPiano_Vel04_G4_01.ogg");
+      audioB.play();
+      setSmoothSoundEnding(audioB);
       break;
     case "n":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_A4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioN = new Audio("./white_keys/INSPiano_Vel04_A4_01.ogg");
+      audioN.play();
+      setSmoothSoundEnding(audioN);
       break;
     case "m":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_B4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioM = new Audio("./white_keys/INSPiano_Vel04_B4_01.ogg");
+      audioM.play();
+      setSmoothSoundEnding(audioM);
       break;
     case "q":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_C5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioQ = new Audio("./white_keys/INSPiano_Vel04_C5_01.ogg");
+      audioQ.play();
+      setSmoothSoundEnding(audioQ);
       break;
     case "w":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_D5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioW = new Audio("./white_keys/INSPiano_Vel04_D5_01.ogg");
+      audioW.play();
+      setSmoothSoundEnding(audioW);
       break;
     case "e":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_E5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioE = new Audio("./white_keys/INSPiano_Vel04_E5_01.ogg");
+      audioE.play();
+      setSmoothSoundEnding(audioE);
       break;
     case "r":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_F5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioR = new Audio("./white_keys/INSPiano_Vel04_F5_01.ogg");
+      audioR.play();
+      setSmoothSoundEnding(audioR);
       break;
     case "t":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_G5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioT = new Audio("./white_keys/INSPiano_Vel04_G5_01.ogg");
+      audioT.play();
+      setSmoothSoundEnding(audioT);
       break;
     case "y":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_A5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioY = new Audio("./white_keys/INSPiano_Vel04_A5_01.ogg");
+      audioY.play();
+      setSmoothSoundEnding(audioY);
       break;
     case "u":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_B5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioU = new Audio("./white_keys/INSPiano_Vel04_B5_01.ogg");
+      audioU.play();
+      setSmoothSoundEnding(audioU);
       break;
 
     case "s":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_Cs4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioS = new Audio("./white_keys/INSPiano_Vel04_Cs4_01.ogg");
+      audioS.play();
+      setSmoothSoundEnding(audioS);
       break;
     case "d":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_Ds4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioD = new Audio("./white_keys/INSPiano_Vel04_Ds4_01.ogg");
+      audioD.play();
+      setSmoothSoundEnding(audioD);
       break;
     case "g":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_Fs4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioG = new Audio("./white_keys/INSPiano_Vel04_Fs4_01.ogg");
+      audioG.play();
+      setSmoothSoundEnding(audioG);
       break;
     case "h":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_Gs4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioH = new Audio("./white_keys/INSPiano_Vel04_Gs4_01.ogg");
+      audioH.play();
+      setSmoothSoundEnding(audioH);
       break;
     case "j":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_As4_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audioJ = new Audio("./white_keys/INSPiano_Vel04_As4_01.ogg");
+      audioJ.play();
+      setSmoothSoundEnding(audioJ);
       break;
 
     case "2":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_Cs5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audio2 = new Audio("./white_keys/INSPiano_Vel04_Cs5_01.ogg");
+      audio2.play();
+      setSmoothSoundEnding(audio2);
       break;
     case "3":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_Ds5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audio3 = new Audio("./white_keys/INSPiano_Vel04_Ds5_01.ogg");
+      audio3.play();
+      setSmoothSoundEnding(audi3);
       break;
     case "5":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_Fs5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audio5 = new Audio("./white_keys/INSPiano_Vel04_Fs5_01.ogg");
+      audio5.play();
+      setSmoothSoundEnding(audio5);
       break;
     case "6":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_Gs5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audio6 = new Audio("./white_keys/INSPiano_Vel04_Gs5_01.ogg");
+      audio6.play();
+      setSmoothSoundEnding(audio6);
       break;
     case "7":
-      var audio = new Audio("./white_keys/INSPiano_Vel04_As5_01.ogg");
-      audio.play();
-      setSmoothSoundEnding(audio);
+      var audio7 = new Audio("./white_keys/INSPiano_Vel04_As5_01.ogg");
+      audio7.play();
+      setSmoothSoundEnding(audio7);
       break;
   }
 }
@@ -172,11 +172,6 @@ function setSmoothSoundEnding(audio) {
     }
   }, 20);
 }
-
-
-
-
-
 
 document.querySelector(".naming").addEventListener("click", function () {
   this.classList.toggle("changeBtnColor1");
@@ -227,4 +222,3 @@ document.querySelector("#cpBtn3").addEventListener("click", function () {
   document.querySelector("#cpBtn2").classList.remove("changeBtnColor3");
   document.querySelector("h1").classList.remove("borderBottomColor2");
 });
-
